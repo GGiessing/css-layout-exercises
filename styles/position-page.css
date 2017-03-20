@@ -1,58 +1,65 @@
 nav {
-	padding-right: 60px;
-	padding-left: 60px;
-	width: 100%;
-	background: grey;
-	border: 1px solid black;
-	position: fixed;
-	height: 50px;
-	text-align: right;
-
+    padding-right: 60px;
+    padding-left: 60px;
+    width: 100%;
+    background: grey;
+    border: 1px solid black;
+    position: absolute;
+    height: 50px;
+    text-align: right;
 }
 
-ul, li {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	display: inline;
-
+nav ul,
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
 }
 
 .logo {
-	position: absolute;
-	left: 10px;
-	border: 1px solid black;
-
+    position: absolute;
+    left: 10px;
+    border: 3px solid black;
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
 }
 
 html {
-	background: url(../images/outerspace_landscape.jpeg) no-repeat;
-	background-size: cover;
+    background: url(../images/outerspace_landscape.jpeg) no-repeat;
+    background-size: cover;
 }
 
-.greenbox
- {	margin-top: auto;
- 	margin-right: auto;
- 	margin-left: auto;
- 	width: 600px;
- 	height: 300px;
- 	border: 10px green dotted;
- 	position: relative;
- }
+main .greenbox {
+    margin-top: 85px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    width: 600px;
+    height: 300px;
+    border: 10px green dotted;
+    position: relative;
+}
 
- main {
- 	padding: 90px;
+main {
+    padding: 90px;
+}
 
- }
+main .spacecat {
+    position: absolute;
+    bottom: -60px;
+    right: -60px;
+    width: 150px;
+    height: 150px;
+    display: block;
+}
 
- .spacecat {
- 	width: 200px;
- 	height: 200px;
- }
-
- .spacedog {
- 	width: 200px;
- 	height: 200px;
- }
-
-
+main .spacedog {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -60px;
+    left: -60px;
+    display: block;
+}

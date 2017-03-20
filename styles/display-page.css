@@ -1,57 +1,50 @@
 main {
-  font-size: 0px;
+    font-size: 0px;
 }
 
-
-.box-god {
-  margin-top: 90px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 800px;
-
+main .box-god {
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
 }
 
-.box {
-  border: 1px solid black;
-  display: inline-block;
-
-
+main .centered {
+    text-align: center;
 }
 
-.half_box {
-  width: 50%;
-  height: 200px;
+main .box {
+    border: 1px solid black;
+    display: inline-block;
 }
 
-.tri_box {
-  width: 33.33%;
-  height: 300px;
-}
-.black {
-  background-color: black;
-  border: 1px solid;
+main .half_box {
+    width: 50%;
+    height: 200px;
 }
 
-.green {
-  background-color: green;
+main .tri_box {
+    width: 33.33%;
+    height: 300px;
 }
 
-
-.grey {
-  background-color: grey;
+main .black {
+    background-color: black;
+    border: 1px solid;
 }
 
-
-.blue {
-  background-color: blue;
+main .green {
+    background-color: green;
 }
 
-
-.orange {
-  background-color: orange;
+main .grey {
+    background-color: grey;
 }
 
+main .blue {
+    background-color: blue;
+}
 
-.centered {
-  text-align: center;
+main .orange {
+    background-color: orange;
 }
